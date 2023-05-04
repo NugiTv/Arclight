@@ -8,7 +8,7 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: "${forge_gradle_version}", changing: true
-        classpath 'org.parchmentmc:librarian:1.+'
+        // classpath 'org.parchmentmc:librarian:1.+'
         classpath 'org.spongepowered:mixingradle:0.7.2-SNAPSHOT'
         classpath "io.izzel.arclight:arclight-gradle-plugin:$agpVersion"
     }
